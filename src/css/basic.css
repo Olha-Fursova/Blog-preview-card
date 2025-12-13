@@ -5,32 +5,57 @@ html {
 body {
   font-family: var(--main-font);
   margin: 0;
-  font-size: var(--fs-body);
+  font-size: var(--fs-md);
   line-height: 1.6;
+  background-color: var(--yellow);
+  letter-spacing: 0;
 }
 
-h1 {
-  font-size: var(--fs-h1);
-  line-height: 1.2;
+.main-container {
+  padding-top: 156px;
 }
 
-h2 {
-  font-size: var(--fs-h2);
-  line-height: 1.25;
+.text-lg {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.5;
 }
 
-h3 {
-  font-size: var(--fs-h3);
+.text-md {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
-h4 {
-  font-size: var(--fs-h4);
+.text-md-bold {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.5;
 }
 
-p {
-  font-size: var(--fs-body);
+.text-sm {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
-.small-text {
-  font-size: var(--fs-small);
+.text-sm-bold {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1440px) {
+  .text-lg {
+    font-size: 24px;
+  }
+
+  .text-sm,
+  .text-sm-bold {
+    font-size: 14px;
+  }
+
+  .text-md {
+    font-size: 16px;
+  }
 }
