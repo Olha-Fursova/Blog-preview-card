@@ -1,16 +1,15 @@
-# React + Vite
+# Blog preview card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This code snippet is a small blog post from the Frontend Mentor Challenges list.
 
-Currently, two official plugins are available:
+I could have built this project much easier without using React. But since I was taking a React course at the time, I felt the need to practice not just building complex applications, but even just starting and configuring a project. Creating simple components helps me consolidate my skills faster.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
 
-## Expanding the ESLint configuration
+## Additional observations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I used a Responsive Design approach. There was a slight discrepancy between the spacing and dimensions on the mockup and how it looked in the final product. Even when reproducing all dimensions at 100% as indicated in the mockup, the result did not converge, so I had to adjust more to the appearance (by eye, so to speak) than to the exact numbers to meet the requirements of the mockup.
